@@ -62,4 +62,10 @@ fun main(args: Array<String>) {
 
     println(changedStory)
 
+    // The following is the equivalent to Java's void
+    //val myUnit : Unit
+
+    //printAString("Hello")
+
+
 }

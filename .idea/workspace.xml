@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4533268f-cd78-47a1-8637-4a24eeeff717" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringNulls.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringNulls.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringVariables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringVariables.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,27 +29,27 @@
           <entry key="gitignore" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="5" />
-          <entry key="kt" value="10" />
+          <entry key="kt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="5" />
-          <entry key="Kotlin" value="10" />
+          <entry key="Kotlin" value="11" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="438" />
-          <entry key="kt" value="1445" />
+          <entry key="kt" value="1914" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="438" />
-          <entry key="Kotlin" value="1445" />
+          <entry key="Kotlin" value="1914" />
         </counts>
       </usages-collector>
     </session>
@@ -57,11 +59,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringVariables.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="396">
+              <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
               <folding>
                 <element signature="e#58#115#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringFunctions.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -90,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringNulls.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -129,10 +140,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringVariables.kt" />
         <option value="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/java/BoringJavaCode.java" />
         <option value="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExplortingCasting.kt" />
         <option value="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringNulls.kt" />
+        <option value="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringVariables.kt" />
+        <option value="$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringFunctions.kt" />
       </list>
     </option>
   </component>
@@ -149,10 +161,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="23" />
-    <option name="width" value="1757" />
-    <option name="height" value="1003" />
+    <option name="x" value="105" />
+    <option name="y" value="54" />
+    <option name="width" value="1607" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542663050356" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542665482017" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -224,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.virtualpairprogrammers.learningkotlin.kotlin.ExploringNullsKt">
+  <component name="RunManager" selected="Kotlin.com.virtualpairprogrammers.learningkotlin.kotlin.ExploringFunctionsKt">
     <configuration name="BoringJavaCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.virtualpairprogrammers.learningkotlin.java.BoringJavaCode" />
       <module name="LearningKotlin" />
@@ -234,6 +246,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.virtualpairprogrammers.learningkotlin.kotlin.ExploringFunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LearningKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.virtualpairprogrammers.learningkotlin.kotlin.ExploringFunctionsKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,9 +307,11 @@
       <item itemvalue="Application.BoringJavaCode" />
       <item itemvalue="Kotlin.com.virtualpairprogrammers.learningkotlin.kotlin.ExplortingCastingKt" />
       <item itemvalue="Kotlin.com.virtualpairprogrammers.learningkotlin.kotlin.ExploringNullsKt" />
+      <item itemvalue="Kotlin.com.virtualpairprogrammers.learningkotlin.kotlin.ExploringFunctionsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.virtualpairprogrammers.learningkotlin.kotlin.ExploringFunctionsKt" />
         <item itemvalue="Kotlin.com.virtualpairprogrammers.learningkotlin.kotlin.ExploringNullsKt" />
         <item itemvalue="Kotlin.com.virtualpairprogrammers.learningkotlin.kotlin.ExplortingCastingKt" />
         <item itemvalue="Application.BoringJavaCode" />
@@ -304,18 +331,18 @@
       <updated>1542593265359</updated>
       <workItem from="1542593269517" duration="1140000" />
       <workItem from="1542642520411" duration="3984000" />
-      <workItem from="1542653113388" duration="7419000" />
+      <workItem from="1542653113388" duration="9802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12543000" />
+    <option name="totallyTimeSpent" value="14926000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="23" width="1757" height="1003" extended-state="0" />
+    <frame x="71" y="23" width="1721" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24023324" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1852293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,16 +351,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40765765" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24738675" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.47058824" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.45382884" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32408434" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32288036" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -422,16 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringVariables.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#58#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/java/BoringJavaCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -454,8 +471,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringNulls.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringVariables.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+          <folding>
+            <element signature="e#58#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/virtualpairprogrammers/learningkotlin/kotlin/ExploringFunctions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
         </state>
       </provider>
     </entry>
