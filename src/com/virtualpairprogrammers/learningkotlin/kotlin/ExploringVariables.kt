@@ -1,7 +1,42 @@
 package com.virtualpairprogrammers.learningkotlin.kotlin
 
+import java.math.BigDecimal
+import kotlin.math.roundToInt
+
 
 fun main(args: Array<String>) {
+
+    val myDouble = 21.4
+
+    println("Is myDouble a Double? ${myDouble is Double}")
+
+    println("myDouble is a ${myDouble::class.qualifiedName}")
+
+    println("myDouble's javaClass is ${myDouble.javaClass}")
+
+
+    val myInteger = myDouble.roundToInt()
+    println("myInteger is a ${myInteger::class.qualifiedName}")
+
+    val anotherInteger : Int = 17
+
+    val myFloat : Float = 13.6f
+
+    val result = myFloat + anotherInteger
+
+    println(result)
+
+    val bd = BigDecimal(17)
+
+    val bd2 : BigDecimal
+
+    println("Hello")
+
+
+    bd2 = bd.add(BigDecimal(30))
+
+
+
 
     var name = "Matt"
     val surname = "Greencroft"
