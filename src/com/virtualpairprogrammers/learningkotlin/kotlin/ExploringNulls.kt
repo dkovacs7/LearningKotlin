@@ -7,10 +7,17 @@ fun main(args: Array<String>) {
     var name: String? = null
 
 
-    name = "Matt"
+    //name = "Matt"
 
-    // null-safe operator
-    println(name?.toUpperCase())
+    println(name!!.toUpperCase())
 
+    var address : String? = null
+
+
+    address = "Hello"
+
+    var myInteger : Int? =  7
+
+    myInteger = null
 
 }
