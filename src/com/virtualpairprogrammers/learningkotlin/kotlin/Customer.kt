@@ -21,14 +21,17 @@ class AnotherAlternativeCustomer(val name: String, var age: Int, val address: St
 
     val nextAge= age + 1
 
+    fun uppercaseName() = name.toUpperCase()
+
+    override fun toString() = "[$name, $age, $address]"
+
 
 }
 
 
 fun main(args: Array<String>) {
 
-
-    val customer = AnotherAlternativeCustomer("Matt", 14, "10 The High Street")
+    val customer = AnotherAlternativeCustomer("Matt", 14, "10 High Street")
     customer.approved = true
 
     val customer2 = AnotherAlternativeCustomer("David", 21)
@@ -38,6 +41,6 @@ fun main(args: Array<String>) {
 
     println("${customer.name} is ${customer.age} years old, his approval is ${customer.approved}, and his next age is ${customer.nextAge}")
 
-
+    println("The class $customer has the following uppercase name ${customer.uppercaseName()}")
 
 }
