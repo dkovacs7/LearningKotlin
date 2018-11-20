@@ -1,41 +1,43 @@
 package com.virtualpairprogrammers.learningkotlin.kotlin
 
 
-class Customer(val name : String, val address : String, var age : Int) {
+//class AnotherAlternativeCustomer(val name: String, var age: Int, val address: String = "") {
+//
+//    var approved: Boolean = false
+//        set(value) {
+//            require(age >= 21) { "You can't approve someone under 21 years old." }
+//            field = value
+//        }
+//
+//}
 
-    constructor(name: String, age: Int) : this(name,"",age)
+class AnotherAlternativeCustomer(val name: String, var age: Int, val address: String = "") {
+
+    var approved: Boolean = false
+        set(value) {
+            if (age >= 21) field = value else println("You can't approve a customer under 21 years old.")
+        }
+
+
+    val nextAge= age + 1
+
 
 }
-
-
-class AlternativeCustomer(val name: String, var age: Int) {
-    var address : String
-
-    init {
-        address = ""
-    }
-
-    constructor(name: String, address: String, age: Int) : this(name, age) {
-        this.address = address
-    }
-
-}
-
-class AnotherAlternativeCustomer(val name: String, var age: Int, val address: String = "")
-
 
 
 fun main(args: Array<String>) {
 
-    val customer = AnotherAlternativeCustomer("Matt", 21, "10 The High Street")
 
-    customer.age = 22
+    val customer = AnotherAlternativeCustomer("Matt", 14, "10 The High Street")
+    customer.approved = true
 
-    val customer2 = AnotherAlternativeCustomer("David", 34)
+    val customer2 = AnotherAlternativeCustomer("David", 21)
+    customer2.approved = true
 
-    println("${customer.name} is ${customer.age} years old")
+    println("${customer2.name} is ${customer2.age} years old, his approval is ${customer2.approved}, and his next age is ${customer2.nextAge}")
 
-    println("${customer2.name} is ${customer2.age} years old")
+    println("${customer.name} is ${customer.age} years old, his approval is ${customer.approved}, and his next age is ${customer.nextAge}")
+
 
 
 }
