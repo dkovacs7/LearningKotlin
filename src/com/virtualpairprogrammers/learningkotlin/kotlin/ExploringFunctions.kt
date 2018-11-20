@@ -1,38 +1,40 @@
 package com.virtualpairprogrammers.learningkotlin.kotlin
 
 
-//private fun printAString(value: String) {
-//    println(value)
-//}
-
-
 private fun printAString(value: String) = println(value)
 
 
-
-//fun addTwoNumbers(one: Double, two: Double) : Double {
-//    return one + two
-//}
-
-
-//fun addTwoNumbers(one: Double, two: Double) : Double = one + two
-
-
-fun addTwoNumbers(one: Double, two: Double) = one + two
+fun addTwoNumbers(one: Double = 6.2, two: Double = 3.9) = one + two
 
 
 fun printSomeMaths(one: Double, two: Double) {
     println("$one + $two is ${one + two}")
     println("$one - $two is ${one - two}")
+
+    fun functionWithinAFunction(a : String) {
+        println(a)
+    }
+
+    functionWithinAFunction("Hello")
+}
+
+//fun methodTakesALambda(input: String, action: java.util.function.Function<String,Int>) {
+//    println(action.apply(input))
+//}
+
+
+fun methodTakesALambda(input: String, action: (String) -> Int){
+    println(action(input))
 }
 
 
 
 fun main(args: Array<String>) {
-
     printAString("Hello world")
-
     println(addTwoNumbers(17.3, 9.6))
+    println(addTwoNumbers(5.6))
+    println(addTwoNumbers(two = 5.6))
+    println(addTwoNumbers())
     printSomeMaths(two = 17.3, one = 9.6)
 
 }
