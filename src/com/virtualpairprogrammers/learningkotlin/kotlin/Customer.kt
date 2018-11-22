@@ -1,6 +1,13 @@
 package com.virtualpairprogrammers.learningkotlin.kotlin
 
 
+data class Customer(val name: String, val address: String, var age: Int) {
+
+    constructor(name: String, age: Int) : this(name, "", age)
+
+}
+
+
 //class AnotherAlternativeCustomer(val name: String, var age: Int, val address: String = "") {
 //
 //    var approved: Boolean = false
@@ -20,6 +27,12 @@ class AnotherAlternativeCustomer(val name: String, var age: Int, val address: St
 
 
     val nextAge= age + 1
+
+
+    operator fun component1() = name
+    operator fun component2() = age
+    operator fun component3() = address
+
 
     fun uppercaseName() = name.toUpperCase()
 
@@ -51,5 +64,24 @@ fun main(args: Array<String>) {
     val customer3 = AnotherAlternativeCustomer.getInstance()
 
     println(customer3)
+
+    val customer4 = Customer("Sally", 29)
+
+    println(customer4)
+
+    val customer5 = customer4.copy(name = "Diane")
+
+    println(customer5)
+
+
+    val (name, address, age) = customer5
+
+    println(name)
+
+    val (name2, address2, age2) = customer
+
+    println(customer)
+
+
 
 }
